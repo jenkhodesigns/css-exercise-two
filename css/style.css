@@ -1,6 +1,9 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  text-align: left;
 }
 
 nav {
@@ -32,6 +35,26 @@ nav {
   float: right;
 }
 
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.author {
+  line-height: 2.5em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
 ul {
   list-style-type: none;
   float: right;
@@ -41,6 +64,15 @@ li {
   float: right;
   padding: 30px;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link { color: #FFFFFF; } /** unvisited **/
+a:visited { color: #0070BA; } /** visited **/
+a:hover { color: #0070BB; } /** mouse over **/
+a:active { color: #0070BD: } /** selected **/
 
 article {
   padding-top: 100px;
